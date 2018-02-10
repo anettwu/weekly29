@@ -1,0 +1,7 @@
+zadanie 29
+
+1. start 04.02
+2. html/css/js (w tym jquery), bez bootstrapa.
+3. rwd obowiazkowo 
+
+
