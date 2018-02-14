@@ -1,3 +1,80 @@
+
+/*##############################
+		GLOBAL
+###############################*/
+
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 62.5%;
 }
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+
+/*##############################
+		SECTION LINE
+###############################*/
+
+.line {
+	background-color: #e4bb7a;
+	padding: 15px 0 ;
+}
+
+.line__point {
+	font-size: 1.8rem;
+	font-weight: bold;
+	padding-right: 5px;
+	text-decoration: none;
+	color: #000;
+}
+
+.line__text {
+	font-family: 'Average', serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.line__display {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.line__icons {
+	display: inline-block;
+	font-size: 1.3rem;
+	padding-left: 20px;
+}
+
+.line__link {
+	 color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
