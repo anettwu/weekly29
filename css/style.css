@@ -145,8 +145,8 @@ html {
 
 .welcome__arrow {
 	width: 120px;
-	height: 50px;
-	margin: 40px auto;
+	height: 40px;
+	margin: 10px auto 40px;
 	background: url(../images/arrow.gif) no-repeat;
 }
 
@@ -154,7 +154,7 @@ html {
 	width: 70px;
 	height: 100px;
 	background: url(../images/bell.gif) no-repeat;
-	margin: 220px auto 40px;
+	margin: 210px auto 40px;
 }
 
 
