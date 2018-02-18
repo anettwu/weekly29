@@ -61,21 +61,21 @@ html {
 /*##############################
 		TOP NAV
 ###############################*/
+
 .nav {
 	background: #262626;
 }
 
-ul {
+.nav__list {
 	list-style: none;
 	text-transform: uppercase;
 	display: flex;
 }
 
-li {
+.nav__item {
 	padding: 20px 0 20px 40px;
 	align-items: center;
 	display: flex;
-	/* text-align:center; */
 }
 
 .nav__link {
