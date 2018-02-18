@@ -146,8 +146,7 @@ html {
 .welcome__arrow {
 	width: 120px;
 	height: 50px;
-	margin: 0 auto;
-	padding: 40px 0;
+	margin: 40px auto;
 	background: url(../images/arrow.gif) no-repeat;
 }
 
