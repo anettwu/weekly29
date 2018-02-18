@@ -57,23 +57,50 @@ html {
 	 color: #000;
 }
 
+/*##############################
+		TOP NAV
+###############################*/
+.nav__line {
+	background: #262626;
+}
+.nav__container {
+	max-width: 1180px;
+	/* height: 80px; */
+	margin: 0 auto;
+}
 
+ul {
+	list-style: none;
+	text-transform: uppercase;
+	display: flex;
+}
 
+li {
+	padding: 20px 0 20px 40px;
+	align-items: center;
+	display: flex;
+	/* text-align:center; */
+}
 
+a {
+	font-family: 'Montserrat';
+	font-size: 1.5rem;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: #fff;
 
+}
 
+.hamburger {
+	font-size: 1.5rem;
+	padding-right: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.steak__icon {
+	padding-left: 20px;
+}
+/* pushing all elements from the icon to the right */
+.push {
+    margin-left: auto;
+}
