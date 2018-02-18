@@ -65,29 +65,24 @@ html {
 /*##############################
 		TOP NAV
 ###############################*/
-.nav__line {
+
+.nav {
 	background: #262626;
 }
-.nav__container {
-	max-width: 1180px;
-	/* height: 80px; */
-	margin: 0 auto;
-}
 
-ul {
+.nav__list {
 	list-style: none;
 	text-transform: uppercase;
 	display: flex;
 }
 
-li {
+.nav__item {
 	padding: 20px 0 20px 40px;
 	align-items: center;
 	display: flex;
-	/* text-align:center; */
 }
 
-a {
+.nav__link {
 	font-family: 'Montserrat';
 	font-size: 1.5rem;
 	font-weight: 500;
@@ -97,16 +92,15 @@ a {
 
 }
 
-.hamburger {
+.nav__hamburger {
 	font-size: 1.5rem;
-	padding-right: 20px;
 }
 
-.steak__icon {
-	padding-left: 20px;
+.nav__steak {
+	padding-left: 0;
 }
 /* pushing all elements from the icon to the right */
-.push {
+.nav__push {
     margin-left: auto;
 }
 
