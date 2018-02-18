@@ -3,6 +3,11 @@
 		GLOBAL
 ###############################*/
 
+@font-face {
+	font-family: WildYouth;
+	src: url(fonts/WildYouth.ttf);
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -104,3 +109,28 @@ a {
 .push {
     margin-left: auto;
 }
+
+
+/*##############################
+			WELCOME
+###############################*/
+
+.welcome {
+	background-color: #3f3f3f;
+}
+
+.welcome__greatings {
+	font-size: 5rem;
+	font-family: WildYouth;
+}
+
+
+
+
+
+
+
+
+
+
+
