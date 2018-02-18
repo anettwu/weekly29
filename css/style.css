@@ -144,10 +144,10 @@ html {
 }
 
 .welcome__arrow {
-	width: 120px;
+	width: 81px;
 	height: 40px;
 	margin: 10px auto 40px;
-	background: url(../images/arrow.gif) no-repeat;
+	background: url(../images/arrow1.gif) no-repeat;
 }
 
 .welcome__bell {
