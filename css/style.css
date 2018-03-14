@@ -158,14 +158,115 @@ html {
 	margin: 210px auto 40px;
 }
 
+/*##############################
+			SECOND NAV
+###############################*/
 
+.second__nav__link {
+	color: #000;
+	font-weight: 600;
+}
 
+.second__nav__list {
+	display: flex;
+	justify-content: space-between;
+	padding:0 250px 24px 250px;
+	text-transform: uppercase;
 
+}
 
+.second__nav__icon {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
 
+/*##############################
+			THE BEST CUISINE SECTION
+###############################*/
 
+.cuisine {
+	background-color: #3f3f3f;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cuisine__main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	color: #fff;
+	font-family: 'Montserrat';
+}
 
+.cuisine__container {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;
+	max-width: 25%;
+	margin: 0 140px;
 
+	/* flex-grow: 3; */
+}
 
+.cuisine__heading-title {
+	font-size: 45px;
+	font-family: 'wild_youthregular', sans-serif;
+	color: #e4bb7a;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	/* font-size: 30px; */
+}
 
+.cuisine__heading-bottom {
+	display: block;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	font-size: 36px;
+	letter-spacing: 5px;
+	padding-top: 10px;
+}
 
+.cuisine__description {
+	font-family: 'Average', serif;
+	font-size: 15px;
+	line-height: 30px;
+	margin-bottom: 45px;
+}
+
+.fa-coffee,
+.fa-utensils {
+	font-size: 48px;
+	/* flex-grow: 1; */
+}
+
+.fa-coffee {
+	margin-left: 150px;
+}
+
+.fa-utensils {
+	margin-right: 150px;
+}
+
+.dots {
+	font-size: 10px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.fa-circle {
+	margin-left: 20px;
+}
+
+.fa-cirle:last-child {
+	margin: 0;
+}
+
+.fa-circle:nth-child(2) {
+	font-size: 12px;
+	color: #e4bb7a;
+}
